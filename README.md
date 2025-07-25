@@ -46,6 +46,11 @@ Why We Use Players With More Than 9 Matches?
 
           Goals-to-xG Ratio = Goals/ xG
 
+- If the player ends with more than certain ratio he is overperformer.
+- If the player ends up scoring less goals than the certain ratio he is underperformer.
 
+  For example:
+  - ratio > 1.1 → player scored 10% more than expected → Overperformer
+  - ratio < 0.9 → player scored 10% less than expected → Underperformer
   
 
