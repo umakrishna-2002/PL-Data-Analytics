@@ -44,4 +44,8 @@ Why We Use Players With More Than 9 Matches?
 - Metrics like xG or xA are per-event estimations. In small samples, randomness can make players appear to massively overperform or underperform, which isn’t reliable.
 - Many features like xA_per_90 or Gls_per_90 become exaggerated when minutes played is too low.Filtering players with a minimum number of matches (or 90s) ensures these ratios reflect actual consistent performance.
 
+          Goals-to-xG Ratio = Goals/ xG
+
+
+  
 
