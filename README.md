@@ -34,9 +34,53 @@ Dataset Description:
 - xA : Expected Assits made per 90 mins
 - npxG+xA : Non-Penalty Expected Goals plus Expected Assists made per 90 mins
 
+Player Positions Analysis
+- Identified all unique player positions in the dataset:
+   FW, MF, DF, GK, MF,DF, MF,FW, DF,MF, DF,FW, FW,DF
+
+Team & Position Distribution
+
+- Calculated the total number of players for each of the 20 teams.
+
+- Computed the number of players per position for each team.
+
+Top Performers per Team
+
+- Identified the highest goal scorer and top assist provider for each team.
+
+Top Contributors (G+A)
+
+- Determined the player with the highest overall contribution (Goals + Assists) per team.
+
+Disciplinary Records
+
+- Analyzed the number of yellow and red cards received by each team.
+
+- Explored the distribution of cards per player position across all 20 teams.
+
+Overperformer & Underperformer (Forwards Only)
+
+- Focused on forward players (main goal scorers).
+
+- Calculated overperformance and underperformance based on the number of games played, minutes, goals scored (Gls), and expected goals (xG).
+
+- Assessed players with better shooting efficiency.
+
+Team-wise Performance Ratio
+
+- Extended overperformance/underperformance analysis to all 20 teams to identify how each team’s forwards performed relative to expectations.
+
+ Assists Analysis
+
+- Computed total assists per team.
+
+- Determined which positions contributed the most assists overall and for each individual team.
+
+
+
 UnderPerformance and Overperformance of the players were calcuated using Goals scored to the xG.
 
-- The players should play morethan 15 matches
+- The players should play more matches
   
 Why We Use Players With More Than 9 Matches?
 
@@ -46,12 +90,6 @@ Why We Use Players With More Than 9 Matches?
 
           Goals-to-xG Ratio = Goals/ xG
 
-- If the player ends with more than certain ratio he is overperformer.
-- If the player ends up scoring less goals than the certain ratio he is underperformer.
-
-  For example:
-  - ratio > 1.1 → player scored 10% more than expected → Overperformer.
-  - ratio < 0.9 → player scored 10% less than expected → Underperformer.
 
 
   
